@@ -5,6 +5,12 @@ export default definePackage({
   kind: "app",
   version: "0.1.0",
   displayName: "Community Core",
+  defaultCategory: {
+    id: "user_management",
+    label: "User Management",
+    subcategoryId: "community_membership",
+    subcategoryLabel: "Community & Membership"
+  },
   description: "Community, groups, and membership backbone.",
   extends: [],
   dependsOn: ["auth-core","org-tenant-core","role-policy-core","audit-core"],
