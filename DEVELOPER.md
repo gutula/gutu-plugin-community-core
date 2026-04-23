@@ -54,6 +54,11 @@ Provides the base group and membership domain used by community-facing experienc
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core`, `role-policy-core`, `audit-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.community` |
 | Provides Capabilities | `community.memberships` |
 | Owns Data | `community.memberships` |
